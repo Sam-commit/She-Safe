@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47258866990",
+    "project_id": "m-a-d-1f222",
+    "storage_bucket": "m-a-d-1f222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47258866990:android:279cff8d9efc1d7e6196bf",
+        "android_client_info": {
+          "package_name": "com.voice_against_voilence.mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47258866990-2tm58n0cncdrh1bpie5jh3oirhvn89m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdu7QAEjM-2mhJwL0T5W8_zNMvCkZm0c8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47258866990-2tm58n0cncdrh1bpie5jh3oirhvn89m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
