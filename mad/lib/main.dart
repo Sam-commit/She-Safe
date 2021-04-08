@@ -11,8 +11,10 @@ import 'package:mad/page%202/Domestic2.dart';
 import 'package:mad/page%202/Section.dart';
 import 'package:mad/page%202/provision.dart';
 import 'package:mad/rules.dart';
+import 'package:mad/settings.dart';
 import 'Homepage.dart';
 import 'package:firebase_core/firebase_core.dart';
+
 
 
 void main() async{
@@ -42,6 +44,7 @@ class MyApp extends StatelessWidget {
         'Domestic2' : (context) => Domestic2(),
         'Provision' : (context) => Provision(),
         'Section' : (context) => Section(),
+        'Settings' : (context) => Settings(),
 
       },
 

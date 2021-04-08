@@ -2,12 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+String number;
+
 class Homepage extends StatefulWidget {
   @override
   _HomepageState createState() => _HomepageState();
 }
 
 class _HomepageState extends State<Homepage> {
+
+
+
 
   void customLaunch(command) async {
     if (await canLaunch(command)) {
@@ -71,7 +76,9 @@ class _HomepageState extends State<Homepage> {
                 Padding(
                   padding: const EdgeInsets.all(20),
                   child: new ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, 'Settings');
+                    },
                     child: Text('Settings'),
 
                   ),
@@ -80,7 +87,7 @@ class _HomepageState extends State<Homepage> {
 
                 FloatingActionButton(
                   onPressed: () async{
-                    await customLaunch('sms:7990985961');
+                    await customLaunch('sms:$number');
                     getlocation();
                   },
                   backgroundColor: Colors.red[600],
